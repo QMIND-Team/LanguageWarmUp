@@ -2,9 +2,8 @@
 
 ## What The Project Was
 
->The project was a sentiment analysis natural language processing project, where the programmer was interested in developing a sentiment analysis model to 
->analyze sentiment of tweets by people in different cities to see if there was a correlation between the number of positive tweets and city. In short, the programmer
->was interested in determining in which cities are the citizens happiest.
+>The programmer worked on a sentiment analysis project, where they were interested in developing a sentiment analysis model to 
+>analyze sentiment of tweets by people in different cities to see if there was a correlation between the number of positive tweets and city. In short, the programmer was interested in determining in which cities are the citizens happiest.
 
 ## Toolkits and Libraries Used for the Project
 
@@ -12,7 +11,7 @@
 
 ## Datasets and Features Used for the Project
 
->The project made use of the _"Sentiment 140"_ data set that was created by _**Stanford University**_. A copy of the data set can be found [_here_](http://help.sentiment140.com/for-students/)
+>The project made use of the _"Sentiment 140"_ data set that was created by _**Stanford University**_. A copy of the data set can be found [_here_](http://help.sentiment140.com/for-students/).
 >The data set was a ranked data set that used the following fields for consideration in the sentiment analysis:
 
       0 - the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
