@@ -15,12 +15,12 @@
 >The project made use of the _"Sentiment 140"_ data set that was created by _**Stanford University**_. A copy of the data set can be found [here](Data Set)
 >The data set was a ranked data set that used the following fields for consideration in the sentiment analysis:
 
->  0 - the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
->  1 - the tweet id
->  2 - the data of the tweet
->  3 - the query
->  4 - the user the tweet belongs to
->  5 - the text of the tweet itself
+  >  0 - the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
+  >  1 - the tweet id
+  >  2 - the data of the tweet
+  >  3 - the query
+  >  4 - the user the tweet belongs to
+  >  5 - the text of the tweet itself
 
 >For training the sentiment analysis model, 1.6 million distinct entries were used for training, where half of the tweets were labelled as positive,
 > and the other half of tweets were labelled negative. 
@@ -45,4 +45,4 @@
 >completed, the programmer then exported the data to a csv file to use for training, where the data set was divided into four distinct batches.
 
 
-[Data Set]:http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip
+[Data Set]: http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip
