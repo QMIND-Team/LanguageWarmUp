@@ -1,26 +1,26 @@
-#Twitter Sentiment Analysis
+# Twitter Sentiment Analysis
 
-##What The Project Was
+## What The Project Was
 
 >The project was a sentiment analysis natural language processing project, where the programmer was interested in developing a sentiment analysis model to 
 >analyze sentiment of tweets by people in different cities to see if there was a correlation between the number of positive tweets and city. In short, the programmer
 >was interested in determining in which cities are the citizens happiest.
 
-##Toolkits and Libraries Used for the Project
+## Toolkits and Libraries Used for the Project
 
 >The programmer used **BeautifulSoup**, **Pandas**, **NLTK**, **pprint**, **numpy**, **csv**, and **matplotlib.pyplot** libraries and toolkits.
 
-##Datasets and Features Used for the Project
+## Datasets and Features Used for the Project
 
->The project made use of the _"Sentiment 140"_ data set that was created by _**Stanford University**_. A copy of the data set can be found [here](Data Set man)
+>The project made use of the _"Sentiment 140"_ data set that was created by _**Stanford University**_. A copy of the data set can be found [here](Data Set)
 >The data set was a ranked data set that used the following fields for consideration in the sentiment analysis:
 
-  0 - the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
-  1 - the tweet id
-  2 - the data of the tweet
-  3 - the query
-  4 - the user the tweet belongs to
-  5 - the text of the tweet itself
+>  0 - the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
+>  1 - the tweet id
+>  2 - the data of the tweet
+>  3 - the query
+>  4 - the user the tweet belongs to
+>  5 - the text of the tweet itself
 
 >For training the sentiment analysis model, 1.6 million distinct entries were used for training, where half of the tweets were labelled as positive,
 > and the other half of tweets were labelled negative. 
@@ -28,7 +28,7 @@
 >left tweet polarity, and the text of the tweet itself as the main focus of the data set and model training.
 
 
-##Data Preparation
+## Data Preparation
 
 >After determining which fields in the data set were relevant to the project, the programmer then proceeded to clean the data, since there were some 
 >data entries that were obviously invalid (used a string length check to verify which data entries were within the 140 character limit typical of a tweet
@@ -45,4 +45,4 @@
 >completed, the programmer then exported the data to a csv file to use for training, where the data set was divided into four distinct batches.
 
 
-(Data Set man):http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip
+[Data Set]:http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip
