@@ -35,9 +35,10 @@ How do I give those functions my data (Probably a Pandas Dataframe!)
 #wasn't working properly without lowercase set to false, I thint it has to do with apostrophes
 #binary set to false will give us a count of how many times that word was present in the sentence
 
-vectorizer = CountVectorizer(binary=True, lowercase=false)
+vectorizer = CountVectorizer(binary=True, lowercase=False, ngram_range=(2, 2))
 vector = vectorizer.fit_transform(phrases)
 
 print( vector.todense() )
 print( vectorizer.vocabulary_ )
+print(len(vectorizer.vocabulary_))
 
