@@ -8,7 +8,6 @@ Normallized vectors, ready to be passed into a neural net
 import random
 
 from sklearn.feature_extraction.text import CountVectorizer
-import numpy as np
 
 with open("words.txt") as f:
     words = f.readlines()
@@ -34,11 +33,12 @@ How do I give those functions my data (Probably a Pandas Dataframe!)
 '''
 #wasn't working properly without lowercase set to false, I thint it has to do with apostrophes
 #binary set to false will give us a count of how many times that word was present in the sentence
+#ngram set to groupings of 2 words only, can implement a range if we want
 
 vectorizer = CountVectorizer(binary=True, lowercase=False, ngram_range=(2, 2))
 vector = vectorizer.fit_transform(phrases)
 
 print( vector.todense() )
 print( vectorizer.vocabulary_ )
-print(len(vectorizer.vocabulary_))
+print(len( vectorizer.vocabulary_ ))
 
