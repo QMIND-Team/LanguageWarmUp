@@ -1,13 +1,15 @@
 # LanguageWarmUp
 
-Warm up repo for the Language team.
+Warm up repo for the QMIND Language team.  Let's do some NLP!
 
-Olivia was here
+This small project predicts the sentiment (positive or negative) of yelp reviews.
 
-Troy was also here!
+## Team Members
 
-yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeet
+* Troy Giorshev
+* Olivia Tom
+* Robert Topham
+* Zion Oginni
+* Rachel Ng
 
-Brap brap mah doods
-
-Robert TopLobster was here :)
+With Sean Kato as PM
