@@ -1,0 +1,47 @@
+#### Insurance Policies
+
+### Types of Insurance
+
+# *Creditor Insurance*
+
+-Insurance that is taken to prevent inability to meet financial obligations due to extraordinary causes [1]
+-Usually offered with substantial loans or mortgage dealings [1]
+-For sentiment analysis from lender perspective would be concerned with financial history, health history and occupation
+-For sentiment analysis from borrower perspective, would be interested in looking at 0-5 star ratings from customer service records/reviews
+
+## *Business Insurance* 
+
+*Many different flavours of Business-type insurance policies, will consider some key ones below*
+
+# *Property Insurance* 
+
+-Insurance taken out to cover any accidental property/building damage [2] 
+-From lender perspective, would want to look at current market value of property+project plan to look at other potentially insured assets
+-May also want to look at neighborhood and average property value in the area, as well as market projections for that area (property prices going up or down?)
+-May want to look at similar projects (if any) and their fiscal history/projections to see how they've fared, as well as customer reviews
+-Money stuff we can put into an excel sheet and assign a 0-5 star rating and discuss rankings for each category
+
+# *Contents Insurance*  
+
+-Insurance taken out to cover assets intrinsic to the business [2]
+-Like the property insurance could have a look at similar project plans and use that to form our basis for comparison 
+-Would likely be useful to look at the project plan and what specific contents there are as some might lend themselves more to damage than others
+-Could also do a similar screening based upon business type as some professions handle more damaging/hazardous products than others
+
+# *Business Interruption Insurance* 
+
+-Insurance that is taken out to account for potential business shut-downs due to numerous causes [2]
+-Again project plan would lend itself well here as some materials used during construction or handling hazards may result in a needed shut down
+-Age of building should be considered + history of exterminator visits in that area
+-May also want to consider whether the type of business employs workers as part of a labour union or not since labour unions can strike and cause a shut down
+
+## *Liability Insurance*
+
+*These come in a lot of different flavors like malpractice/professional insurance, general liability, product liability and cyber liability insurance [2]
+
+-For each of these, would want to look at the project plan/employment roster if a professional institution so we can look into history of malpractice lawsuits against any current employees [2]
+-Many of these are business venture dependent and as such would want to consider type of industry to narrow focus of the model
+
+
+[1]:(https://www.canadalife.com/insurance/personal-insurance/creditor-insurance/for-you-and-your-family/overview.html)
+[2]:(https://canadabusiness.ca/managing-your-business/day-to-day-operations/protecting-your-business/insurance/insurance-for-your-small-business/)
